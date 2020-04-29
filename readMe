@@ -1,0 +1,32 @@
+Docker Assignment readMe file-->
+
+-----------------------------------
+
+A]1->For POSTMAN collection to run all the CRUD APIs in postman. 
+
+http://localhost:8080/user 
+
+1>The folder which have your json files open terminal from that folder
+here
+
+  ->cd /dos/mysql_crude
+ 
+2>Run the command
+  
+  ->node server
+it will show "Server Listening on Port Number 8080"
+
+3>After that open Your Postman tool and perform crud operations.
+
+    ->http://locahost:8080/fetch
+    ->http://locahost:8080/insert
+    ->http://locahost:8080/update
+    ->http://locahost:8080/delete
+
+  -We can see the changes on postman tool reflect in our created database.
+
+
+B]1->Create a Dockerfile for code and Mysql.
+
+here the dockerfile which i provide contains error, trying to fix it.
+ 
